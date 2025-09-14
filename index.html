@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Bitcount+Grid+Double:wght@100..900&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Libertinus+Keyboard&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: black;
+        }
+
+        .menu a {
+            text-decoration: none;
+            font-family: "Bitcount Grid Double", system-ui;
+            color: white;
+            font-size: 1.2rem;
+            margin-left: 10px;
+            margin-right: 10px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .menu a:hover {
+            color: #FF0000;
+        }
+
+        .navi-bar {
+            display: flex;
+            position: relative;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px;
+        }
+        .logo-bar{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .logo-bar img {
+            width: 50px;
+        }
+
+        .textsection {
+            font-family: "Epunda Slab", serif;
+            color: white;
+            text-align: center;
+            margin-top: 150px;
+            text-shadow: rgb(241, 255, 43) 0px 0px 12px;
+        }
+
+        #title2 {
+            color: #2ef16f;
+        }
+        .imgsection{
+            text-align: center;
+            margin-top: 0px;
+        }
+        .img1{
+            display: inline-block;
+            border: 2px solid white;
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            padding: 10px;
+        }
+        .img1 img{
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navi-bar">
+        <div class="menu">
+            <a href="#">Portfolio</a>
+            <a href="#">About</a>
+            <a href="#">Gut in tist</a>
+        </div>
+        <div class="logo-bar">
+            <a href="#"><img src="./imgs/logo.png" alt=""></a>
+        </div>
+        <div class="social-bar">
+            <a href="#"><img src="./imgs/github_logo.png" alt="" style="width: 50px; height:50px;"></a>
+            <a href="#"><img src="./imgs/ig_logo.png" alt="" style="width: 50px; height:50px;"></a>
+            <a href="#"><img src="./imgs/X_logo.jpg" alt="" style="width: 50px; height:50px;"></a>
+        </div>
+    </div>
+    <div class="textsection">
+        <h1 class="title1">Placeholder</h1>
+        <h1 id="title2">Placeholder</h1>
+        <h1 class="title3">Placeholder</h1>
+    </div>
+    <div class="imgsection">
+        <div class="img1">
+            <img src="./imgs/Placeholder.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
